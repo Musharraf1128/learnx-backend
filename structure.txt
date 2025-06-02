@@ -1,0 +1,15 @@
+ai_tutor_backend/
+├── app/
+│   ├── main.py                # FastAPI entrypoint
+│   ├── models.py              # DB models with SQLModel
+│   ├── schemas.py             # Pydantic request/response models
+│   ├── database.py            # DB engine & session
+│   ├── routers/               # API endpoint modules
+│   │   ├── users.py
+│   │   ├── topics.py
+│   │   └── sections.py
+│   └── services/              # Logic like AI integration or context use
+│       └── section_logic.py
+├── requirements.txt
+└── README.md
+
